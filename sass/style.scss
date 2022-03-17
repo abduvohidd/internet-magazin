@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap");
+
+$primary: #f39321;
+$default: #d1d5da;
+$defaultBg: #2f363d;
+$dark: #c9d1d9;
+$darkBg: #0d1117;
+
+$primery-color: #09b358;
+$secondary-color: #272b29;
+$success-color: #3cd797;
+$warning-color: #ffae31;
+$tertiary-color: #797979;
+$error-color: #f53b29;
+$white-color: white;
+
+$default-btn-color: #09b358;
+$hover-btn-color: #08a350;
+$clicked-btn-color: #089549;
+
+$font-family: "Open sans", sans-serif;
+//
+$font-size-h1: 64px;
+$font-size-h2: 48px;
+$font-size-h3: 40px;
+$font-size-h4: 32px;
+$font-size-h5: 24px;
+$font-size-h6: 20px;
+$font-size-subtitle1: 16px;
+$font-size-body2: 15px;
+$font-size-button: 12px;
+//
+
+@import "home";
+@import "style-home";
+@import "style-home-1";
+@import "style-home-2";
+@import "media";

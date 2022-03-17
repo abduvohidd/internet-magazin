@@ -1,0 +1,403 @@
+@media screen and (max-width: 1199px) {
+  header {
+    .navbars {
+      .navs {
+        ul {
+          margin: 0;
+          margin: auto;
+        }
+      }
+    }
+
+    .navbar-about {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .katalog {
+        margin-top: 1rem;
+      }
+
+      .search {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .samsung-card-1 {
+    img {
+      margin-left: 0;
+    }
+
+    .samsung-text {
+      h4 {
+        font-size: $font-size-h5;
+      }
+    }
+  }
+  .samsung-card-2 {
+    img {
+      margin-left: 0;
+    }
+    .samsung-text {
+      h4 {
+        font-size: $font-size-h5;
+      }
+    }
+  }
+
+  .samsung-menu {
+    .samsung-card {
+      h4 {
+        margin-top: 0;
+        font-size: $font-size-h5;
+      }
+    }
+  }
+  .samsung-about {
+    h4 {
+      font-size: $font-size-h5;
+    }
+  }
+
+  .card-notebook {
+    .img-card {
+      img {
+        width: 150px;
+      }
+    }
+  }
+
+  .login-card {
+    .login-img {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      img {
+        width: 100vh;
+      }
+    }
+    // .login-img-1 {
+    //   display: flex;
+    //   align-items: center;
+    // }
+  }
+  .buyurtma-berish {
+    .buyurtma {
+      .buyurtma-search {
+        i {
+          right: 35%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  header {
+    .navbar-about {
+      .katalog.active ~ .katalog-bars {
+        height: auto;
+
+        .katalog-bar {
+          display: flex;
+          flex-direction: column;
+
+          .buttons {
+            align-items: center;
+            margin: 0;
+          }
+
+          .one-link {
+            flex-wrap: wrap;
+          }
+          .two-link {
+            flex-wrap: wrap;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .login-card {
+    .login-img {
+      display: flex;
+      align-items: center;
+      img {
+        width: 55vh;
+      }
+    }
+    .login-img-1 {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin: 0;
+      }
+    }
+  }
+  header {
+    .navbars {
+      flex-direction: column;
+      .navs {
+        ul {
+          margin: 2rem 0;
+        }
+      }
+    }
+  }
+
+  .samsung-card-1 {
+    display: none;
+  }
+  .samsung-card-2 {
+    display: none;
+  }
+
+  .samsung-card-3 {
+    flex-direction: column;
+
+    .samsung-text {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+
+      h3 {
+        font-size: $font-size-h4;
+      }
+    }
+  }
+
+  .col-lg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-notebook {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .servies {
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    .footer-col {
+      .footer-name {
+        display: none;
+      }
+
+      .footer-link {
+        align-items: center;
+      }
+    }
+  }
+
+  .sold {
+    width: auto;
+  }
+
+  .my-aloqa {
+    .aloqa-address {
+      flex-direction: column;
+
+      .aloqa-map {
+        img {
+          height: 250px;
+        }
+      }
+    }
+
+    .aloqa-forms {
+      form {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  .buyurtma-berish {
+    .buyurtma {
+      .buyurtma-search {
+        i {
+          right: 30%;
+        }
+      }
+
+      .buyurtma-text {
+        h6 {
+          font-size: 20px;
+
+          span {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .savatcha-text {
+    text-align: center;
+    h5 {
+      font-size: $font-size-subtitle1;
+    }
+  }
+  table {
+    .td {
+      flex-direction: column;
+      width: 68%;
+
+      h6 {
+        margin-top: 1rem;
+      }
+    }
+  }
+  .login-card {
+    // .login-img {
+    //   padding: 2rem;
+    // }
+    // .login-img-1 {
+    //   padding: 2rem;
+    // }
+
+    .login-form {
+      padding: 0;
+    }
+  }
+  .my-aloqa {
+    .aloqa-address {
+      .aloqa-map {
+        margin-left: 0;
+      }
+    }
+  }
+
+  header {
+    .navbar-about {
+      .login {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .select-1 {
+    .swiper-slide {
+      h1 {
+        font-size: $font-size-h4;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .card-notebook {
+    padding: 1rem;
+    width: 60%;
+  }
+
+  .my-about {
+    align-items: center;
+    flex-direction: column;
+    h5 {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  }
+
+  .sold {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .buyurtma-berish {
+    .buyurtma {
+      .buyurtma-search {
+        i {
+          right: 23%;
+        }
+      }
+
+      button {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .samsung-about {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  table {
+    .td {
+      width: 90%;
+      img {
+        width: 25vh;
+      }
+      h6 {
+        font-size: 12px;
+
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .select-1 {
+    display: none;
+    .swi-slider {
+    }
+  }
+
+  .samsung-about {
+    display: none;
+  }
+  .samsung-card {
+    display: none;
+  }
+
+  .buyurtma-berish {
+    .buyurtma {
+      .buyurtma-search {
+        i {
+          right: 24%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .card-notebook {
+    display: none;
+  }
+
+  .buyurtma-berish {
+    .buyurtma {
+      .buyurtma-search {
+        i {
+          right: 26%;
+        }
+      }
+    }
+  }
+}

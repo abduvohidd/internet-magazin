@@ -1,0 +1,367 @@
+.qurilma-abouts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+  margin-bottom: 5rem;
+
+  .qurilma-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .qurilma-card {
+      padding: 1rem;
+      width: 120px;
+      height: 120px;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    img {
+      width: 20vh;
+    }
+  }
+
+  .qurilma-img {
+    width: 540px;
+    height: 540px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 1rem 0;
+    img {
+      width: 45vh;
+    }
+
+    #img-2,
+    #img-3,
+    #img-4 {
+      display: none;
+    }
+  }
+
+  .qurilma-text {
+    margin-left: 1rem;
+    h5 {
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $font-size-h5;
+      color: $secondary-color;
+      margin: 2rem 0rem;
+
+      span {
+        display: block;
+        color: $primery-color;
+        font-weight: 600;
+      }
+    }
+
+    .customer-rating {
+      display: flex;
+      margin: 2rem 0rem;
+      i {
+        color: $primery-color;
+        font-size: $font-size-subtitle1;
+      }
+    }
+
+    .text {
+      margin: 1rem 0rem;
+      h6 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: $font-size-h6;
+        line-height: 27px;
+        color: $tertiary-color;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .icons {
+      margin: 3rem 0rem;
+      i {
+        font-size: 20px;
+        padding: 10px 13px;
+        background: white;
+        border-radius: 50%;
+        border: 1px solid black;
+        margin: 0rem 1rem;
+      }
+    }
+  }
+
+  .qurilma-btn {
+    display: flex;
+    margin: 1rem 0rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .count {
+      width: 35%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 1rem;
+      border-radius: 5px;
+      border: 1px solid $hover-btn-color;
+
+      .fa-minus {
+        cursor: pointer;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+      .num {
+        font-size: $font-size-body2;
+        margin: 0 10px;
+      }
+      .fa-plus {
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+
+    button {
+      width: 60%;
+      text-align: center;
+      background: $default-btn-color;
+      // backdrop-filter: blur(10px);
+      border-radius: 4px;
+      display: flex;
+      font-family: $font-family;
+      justify-content: center;
+      font-size: $font-size-button;
+      color: $white-color;
+      letter-spacing: 1px;
+      align-items: center;
+      padding: 1.5rem;
+      cursor: pointer;
+
+      ion-icon {
+        margin-right: 5px;
+        width: 15px;
+        height: 15px;
+        fill: transparent;
+        stroke: black;
+        stroke-width: 30;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+.qurilma-nootbook {
+  margin-bottom: 5rem;
+}
+
+.qurilma-tasnif {
+  display: flex;
+  width: 100%;
+
+  h4 {
+    margin-right: 5rem;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $font-size-h4;
+    color: $tertiary-color;
+  }
+
+  .selected {
+    color: $hover-btn-color;
+  }
+}
+
+.qurilma-tasnif-about {
+  display: flex;
+  width: 100%;
+  background-color: $white-color;
+  border-radius: 5px;
+  padding: 66px 100px;
+  margin-top: 2rem;
+
+  .tasnif-about {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    h6 {
+      display: flex;
+      justify-content: space-between;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $font-size-h6;
+      color: $tertiary-color;
+      margin: 7px 0;
+      span {
+        display: flex;
+        width: 60%;
+      }
+    }
+  }
+}
+
+.savatcha-text {
+  display: block;
+  h5 {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $font-size-h4;
+    color: $secondary-color;
+  }
+}
+
+table {
+  width: 100%;
+  // display: flex;
+  tr {
+    th {
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $font-size-h5;
+      color: $secondary-color;
+      padding: 5px;
+      text-align: center;
+    }
+    border-bottom: 1px solid $tertiary-color;
+
+    td {
+      text-align: center;
+    }
+
+    .td-1 {
+      padding: 1rem;
+      border-radius: 5px;
+      background-color: $white-color;
+    }
+  }
+
+  .th {
+    text-align: start;
+  }
+
+  .td {
+    display: flex;
+    padding: 1rem;
+    .img {
+      background-color: $white-color;
+    }
+
+    h6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $font-size-h6;
+      color: $secondary-color;
+      margin-left: 2rem;
+
+      span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: $font-size-subtitle1;
+        letter-spacing: 0.05em;
+        color: $tertiary-color;
+        margin-top: 1rem;
+
+        .span1 {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.buyurtma-berish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+
+  .buyurtma {
+    padding: 4rem;
+    background-color: $white-color;
+    width: 500px;
+    border-radius: 10px;
+    .buyurtma-text {
+      width: 100%;
+      h6 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: $font-size-h5;
+        color: $secondary-color;
+
+        span {
+          font-size: $font-size-h6;
+        }
+      }
+    }
+
+    button {
+      width: 60%;
+      text-align: center;
+      background: $default-btn-color;
+      border-radius: 4px;
+      display: flex;
+      font-family: $font-family;
+      justify-content: center;
+      font-size: $font-size-button;
+      color: $white-color;
+      letter-spacing: 1px;
+      align-items: center;
+      padding: 1.5rem;
+      cursor: pointer;
+      margin: auto;
+      margin-top: 2rem;
+    }
+
+    .buyurtma-search {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+      input {
+        width: 70%;
+        position: relative;
+        background-color: $white-color;
+        border: 1px solid black;
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+      }
+      i {
+        position: absolute;
+        color: rgb(207, 204, 204);
+        right: 38%;
+        padding: 5px;
+        font-size: 15px;
+        border-left: 2px solid black;
+      }
+    }
+  }
+}
